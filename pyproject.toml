@@ -11,7 +11,6 @@ package-mode = false
 
 [tool.poetry.scripts]
 start = "app.main:get_app"
-generate-schemas = "app.generate_schemas:main"
 
 [tool.poetry.dependencies]
 python = "^3.10"
